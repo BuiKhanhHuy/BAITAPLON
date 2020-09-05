@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pet Shop|Cửa Hàng Mua Bán Thú Cưng</title>
+    <meta name="keywords" content="Chó cảnh, pet, cách nuôi chó, mua thú cưng">
+    <meta name="description" content="Mua bán chó cảnh">
+    <meta http-equiv="refresh" content="3600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index_style.css" rel="stylesheet" />
+    <link href="image/icon/icon-logo.PNG" rel="shortcut icon" />
+    <!-- icon -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="index_javascript.js"></script>
+</head>
+
+<body>
+    <!--  header -->
+    <header>
+        <div class="tieude">
+            <div class="col30">
+                <img src="image/icon/logo-shop.png" alt="Petshop" />
+            </div>
+            <div class="col40">
+                <div class="search">
+                    <input type="search" placeholder="Bạn tìm gì..." />
+                    <input type="image" value="timkiem" src="image/icon/search-icon.png" />
+                </div>
+            </div>
+            <div class="col10 header-icon">
+                <a href="#">
+                    <img src="image/icon/hotro-icon.png" alt="hỗ trợ">
+                    <span>Hỗ trợ</span>
+                </a>
+            </div>
+            <div class="col10 header-icon">
+                <a href="#">
+                    <img src="image/icon/giohang-icon.png" alt="Giỏ hàng">
+                    <span>Giỏ hàng</span>
+                </a>
+            </div>
+            <div class="col10 header-icon">
+                <a href="#">
+                    <img src="image/icon/dangnhap-icon.png" alt="đăng nhập">
+                    <span>Đăng nhập</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!--  nav -->
+    <nav id="nav_menu">
+        <ul class="menu">
+            <li>
+                <a href="index.html">
+                    <img src="image/icon/home-icon.png" alt="trang chu">
+                    <span>TRANG CHỦ</span>
+                </a>
+            </li>
+            <li>
+                <a href="giongcho.html">
+                    <img src="image/icon/giongcho-icon.png" alt="giong cho">
+                    <span>GIỐNG CHÓ</span>
+                </a>
+            </li>
+            <li>
+                <a href="cuncon.html">
+                    <img src="image/icon/cuncon-icon.png" alt="cun con">
+                    <span>CÚN CON</span>
+                </a>
+            </li>
+            <li>
+                <a href="phukien.html">
+                    <img src="image/icon/phukien-icon.png" alt="phu kien">
+                    <span>PHỤ KIỆN</span>
+                </a>
+            </li>
+            <li>
+                <a href="cachnuoi.html">
+                    <img src="image/icon/cachnuoi-icon.png" alt="cach nuoi">
+                    <span>CÁCH NUÔI</span>
+                </a>
+            </li>
+            <li>
+                <a href="dichvu.html">
+                    <img src="image/icon/dichvu-icon.png" alt="dich vu">
+                    <span>DỊCH VỤ</span>
+                </a>
+            </li>
+            <li>
+                <a href="gioithieu.html">
+                    <img src="image/icon/gioithieu-icon.png" alt="gioi thieu">
+                    <span>GIỚI THIỆU</span>
+                </a>
+            </li>
+            <li>
+                <a href="lienhe.html">
+                    <img src="image/icon/lienhe-icon.png" alt="lien he">
+                    <span>LIÊN HỆ</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- section main -->
+    <section class="main">
+        <section class="section-content">
+            <aside class="pr">
+                chứa quảng cáo bên trái
+            </aside>
+            <!-- section bootstrap -->
+            <section class="bootstrap-carousel">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/chan-dung-nhung-chu-cun-de-thuong-nhat-trong-nam-2013.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/giongcho/pub.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/giongcho/samoyed.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </section>
+            <aside class="pr">
+                <h6>CHẤT LƯỢNG CHO TẤT CẢ</h6>
+                <div>
+                    <ul>
+                        <li>
+                            <img src="image/icon/icon-cheap.png" alt="icon" /> Giá dịch vụ rẻ nhất
+                        </li>
+                        <li>
+                            <img src="image/icon/icon-quality.png" alt="icon" /> Chất lượng hàng đầu
+                        </li>
+                        <li>
+                            <img src="image/icon/icon-freeshipping.png" alt="icon" /> Miễn phí giao hàng
+                        </li>
+                        <li>
+                            <img src="image/icon/icon-health.png" alt="icon" /> An tâm về sức khỏe
+                        </li>
+                        <li>
+                            <img src="image/icon/icon-support.png" alt="icon" /> Hỗ trợ liên tục
+                        </li>
+                    </ul>
+                </div>
+                <div></div>
+            </aside>
+        </section>
+        <div>
+            <h4>bán chạy nhất</h4>
+        </div>
+        <section class="list-dog">
+            <div class="info-dog">
+                <img src="image/giongcho/akita-inu.jpg" alt="AKITA INU" />
+                <h6>AKITA INU</h6>
+                <a href="#s">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/alaska.jpg" alt="ALASKA" />
+                <h6>ALASKA</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/becgie-bi.jpg" alt="BECGIE BỈ (MALINOIS)" />
+                <h6>BECGIE BỈ (MALINOIS)</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/becgie-duc.jpg" alt="BECGIE ĐỨC" />
+                <h6>BECGIE ĐỨC</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/BORDER-COLLIE.jpg" alt="BORDER COLLIE" />
+                <h6>BORDER COLLIE</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/bull-phap.jpg" alt="BULL PHÁP" />
+                <h6>BULL PHÁP</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/bulldog.jpg" alt="BULLDOG" />
+                <h6>BULLDOG</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/bully-american.jpg" alt="BULLY AMERICAN" />
+                <h6>BULLY AMERICAN</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/chihuahua.jpg" alt="CHIHUAHUA" />
+                <h6>CHIHUAHUA</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/cho-dom.jpg" alt="CHÓ ĐỐM" />
+                <h6>CHÓ ĐỐM</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/chow-chow.jpg" alt="CHOW CHOW" />
+                <h6>CHOW CHOW</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/corgy.jpg" alt="CORGI" />
+                <h6>CORGI</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/dobermann.jpg" alt="DOBERMANN" />
+                <h6>DOBERMANN</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/golden-retriever.jpg" alt="GOLDEN RETRIEVER" />
+                <h6>GOLDEN RETRIEVER</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/great-dane.jpg" alt="GREAT DANE" />
+                <h6>GREAT DANE</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/mong-coc.jpg" alt="H’MÔNG CỘC" />
+                <h6>H’MÔNG CỘC</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+        </section>
+        <div>
+            <h4>đang bán</h4>
+        </div>
+        <section class="list-dog">
+            <div class="info-dog">
+                <img src="image/giongcho/akita-inu.jpg" alt="AKITA INU" />
+                <h6>AKITA INU</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/alaska.jpg" alt="ALASKA" />
+                <h6>ALASKA</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/chobacha.png" alt="BĂC HÀ" />
+                <h6>BẮC HÀ</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/chobackinh.png" alt="BẮC KINH" />
+                <h6>BẮC KINH</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/becgie-duc.jpg" alt="BECGIE ĐỨC" />
+                <h6>BECGIE ĐỨC</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/BORDER-COLLIE.jpg" alt="BORDER COLLTE" />
+                <h6>BORDER COLLIE</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/bulldog.jpg" alt="BULLDOG" />
+                <h6>BULLDOG</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/bully-american.jpg" alt="BULLY AMERICAN" />
+                <h6>BULLY AMERICAN</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/chihuahua.jpg" alt="CHIHUAHUA" />
+                <h6>CHIHUAHUA</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/cho-dom.jpg" alt="CHÓ ĐỐM" />
+                <h6>CHÓ ĐỐM</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/chonhatban.png" alt="CHÓ NHẬT" />
+                <h6>CHÓ NHẬT</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/chow-chow.jpg" alt="CHOW" />
+                <h6>CHOW CHOW</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/cocker.png" alt="COCKER SPANIEL" />
+                <h6>COCKER SPANIEL</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/corgy.jpg" alt="CORGI" />
+                <h6>CORGI</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/dobermann.jpg" alt="DOBERMANN" />
+                <h6>DOBERMANN</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/golden-retriever.jpg" alt="GOLDEN RETRIEVER" />
+                <h6>GOLDEN RETRIEVER</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/great-dane.jpg" alt="GOLDEN DANE" />
+                <h6>GREAT DANE</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/mong-coc.jpg" alt="H’MÔNG CỘC" />
+                <h6>H’MÔNG CỘC</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/husky.jpg" alt="HUSKY" />
+                <h6>HUSKY</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/labrador.png" alt="BLABRADOR" />
+                <h6>BLABRADOR</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/lap-xuong.jpg" alt="LẠP XƯỞNG" />
+                <h6>LẠP XƯỞNG</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/choMalinois.png" alt="MALINOIS" />
+                <h6>MALINOIS</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/ngaottang.jpg" alt="NGAO TÂY TẠNG" />
+                <h6>NGAO TÂY TẠNG</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/phoc-huou.jpg" alt="PHỐC HƯƠU" />
+                <h6>PHỐC HƯƠU</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/phoc-soc.jpg" alt="PHỐC SÓC" />
+                <h6>PHỐC SÓC</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/phu-quoc.jpg" alt="PHÚ QUỐC" />
+                <h6>PHÚ QUỐC</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/pitbull.jpg" alt="PITBULL" />
+                <h6>PITBULL</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/poodle.jpg" alt="POODLE" />
+                <h6>POODLE</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/pub.jpg" alt="PUB" />
+                <h6>PUG</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/rottweiler.jpg" alt="ROTTWEILER" />
+                <h6>ROTTWEILER</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/samoyed.jpg" alt="SAMOYED" />
+                <h6>SAMOYED</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="info-dog">
+                <img src="image/giongcho/shiba.jpg " alt=" SHIBA INU " />
+                <h6>SHIBA INU</h6>
+                <a href="#">Xem chi tiết</a>
+            </div>
+        </section>
+        <div>
+            <h4>Tin tức</h4>
+        </div>
+        <article class="news ">
+            <div class="one-news ">
+                <div>
+                    <img src="image/giongcho/bulldog.jpg " alt=" " />
+                </div>
+                <div class="info ">
+                    <a href="#"> 
+                    Chó Bully American – Mua Bán Chó Bully Con Thuần Chủng, Giá Tốt tại Petshop
+                </a>
+                    <p> Chó Bully hay Bully American (Bully Mỹ) là giống chó vừa mới xuất hiện vào năm 1995 tại Mỹ. Bully được biết đến già hậu duệ của loài chó Pitbull với dáng vẻ đầy cơ bắp, oai vệ. Mặc dù chỉ mới xuất hiện nhưng Bully đã trở thành “cơn
+                        sốt” trên toàn thế giới, đặc biệt là Mỹ, Châu Âu. Giống chó này du nhập vào Việt Nam mới hơn 7 năm. Nhưng đã trở thành cái tên nhận được muôn vàng yêu thương từ cộng đồng yêu chó cảnh nước ta. Trong bài viết này, Dogily Petshop
+                        sẽ cung cấp cho bạn đọc, thông tin tổng quát về giống chó Bully. Từ nguồn gốc, xuất xứ, đặc điểm ngoại hình, tính cách đặc trưng, cách chăm sóc, huấn luyện… Đến việc phân tích giá mua chó Bully con chất lượng cùng các yếu tố ảnh
+                        hưởng
+                        <a href="#">[...]</a>
+                    </p>
+                </div>
+            </div>
+            <div class="one-news ">
+                <div>
+                    <img src="image/giongcho/tinmuaban.jpg" alt="hinh ảnh" />
+                </div>
+                <div class="info ">
+                    <a href="#"> 
+                        Chó Corgi Pembroke Wales & Cardigan giá bao nhiêu tiền? Mua bán chó Corgi con thuần chủng uy tín tại Petshop
+                </a>
+                    <p>Chó Corgi, giống chó “chân ngắn, mông to” có nguồn gốc từ vùng Wales (Anh). Với lịch sử hình thành và phát triển kéo dài hơn 3.000 năm trước. Thời kỳ đầu, chó Corgi được con người nhân giống để hỗ trợ việc chăn nuôi gia súc. Đến thế
+                        kỷ 16, giống chó này dần trở thành thú cưng phổ biến tại nhiều quốc gia trên thế giới. Corgi có hai loại bao gồm: chó Corgi Pembroke Wales và Cardigan. Du nhập vào Việt Nam từ năm 2010 nhưng đến năm 2019, sau bộ phim hoạt hình
+                        “The Queen’s Corgi – Những chú chó Hoàng gia” khởi chiếu. Cogri mới trở thành giống chó “hot” được những người yêu chó tại Việt Nam săn lùng.<a href="#">[...]</a></p>
+                </div>
+            </div>
+            <div class="one-news ">
+                <div>
+                    <img src="image/giongcho/tintuc-hinhanh.jpg " alt="hinh ảnh" />
+                </div>
+                <div class="info ">
+                    <a href="#">         	
+                        Hướng dẫn làm giấy Vka cho chó theo đúng quy định
+                    </a>
+                    <p>
+                        Đối với những người yêu thích động vật thì chắc hẳn không ít lần nghe đến Vka. Nhưng mà không phải ai cũng biết rõ ràng rằng Vka là gì. Trong bài viết này chúng tôi sẽ cung cấp cho các bạn những thông tin về Vka, và hướng dẫn làm giấy Vka cho chó theo
+                        đúng quy định.<a href="#">[...]</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <div class="back-to-top" id="backtop">
+        <a href="">
+            <img src="image/icon/icon-backtotop.png" alt="back to top" />
+        </a>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="footer ">
+            <div class="col30 footer-logo ">
+                <img src="image/icon/logo-shop.png " alt="logoshop " />
+            </div>
+            <div class="col40 freeship ">
+                <div><img src="image/icon/icon-shipping.png " alt="shipping " /></div>
+                <div>Giao hàng miễn phí tại TP.HCM, Hà Nội, Đà Nẵng Áp dụng cho đơn hàng từ 500.000đ trở lên</div>
+            </div>
+            <div class="col30 contact ">
+                <img src="image/icon/bank-icon.png " alt="bank " />
+            </div>
+        </div>
+        <div class="footer ">
+            <div class="col20 footer-info ">
+                <h6>Về chúng tôi</h6>
+                <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Chi nhánh</a></li>
+                    <li><a href=" ">Liên hệ</a></li>
+                    <li>
+                        <a href="http://online.gov.vn/Home/WebDetails/57708 "><img src="image/icon/icon-bocongthuong.png " alt="bộ công thương "></a>
+                    </li>
+                    <li>
+                        <a href="https://www.dmca.com/Protection/Status.aspx?ID=1bf3f65e-4ac8-457e-8400-9d299263f727 "><img src="image/icon/_dmca_premi_badge_7.png " alt="chứng nhận "></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col40 footer-support ">
+                <h6>Hỗ trợ khách hàng</h6>
+                <ul>
+                    <li><a href="#">Hướng dẫn mua hàng</a></li>
+                    <li><a href="#">Điều khoản và điều kiện</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Chính sách thanh toán</a></li>
+                    <li><a href="#">Chính sách giao hàng</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Hướng dẫn gửi trả hàng</a></li>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Mua trả góp</a></li>
+                    <li><a href="#">Chất lượng dịch vụ</a></li>
+                </ul>
+            </div>
+            <div class="col40 footer-contact ">
+                <h6>Thông tin liên hệ</h6>
+                <ul>
+                    <li>Địa chỉ: 371 Nguyễn Kiệm, phường 3, quận Gò Vấp, Tp.Hồ Chí Minh <a href="https://www.google.com/maps/search/dai+hoc+mo+tphcmnguyen+kiem/@10.776026,106.6873724,16.58z?hl=vi-VN ">Chỉ đường</a></li>
+                    <li>Địa chỉ: 97 Võ Văn Tần, Phường 6, Quận 3, Thành phố Hồ Chí Minh <a href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90H+M%E1%BB%9F+ TP.+H%E1%BB%93+Ch%C3%AD+Minh/@10.7762811,106.6860528,16.58z/data=!4m5!3m4!1s0x31752f3ae35e3725:0x20c5174a
+                    47f97be3!8m2!3d10.776266!4d106.6904628?hl=vi-VN ">Chỉ đường</a></li>
+                    <li>Địa chỉ: ấp An Phú, xã An Quy, huyện Thạnh Phú, Bến Tre <a href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+THPT +L%C6%B0%C6%A1ng+Th%E1%BA%BF+Vinh/@9.9069258,106.5655095,17z/data=!4m5!3m4!1s0x319ff5bf4d219b61:0xc1d836c355101725!8m2!3d9.9069469!4d106.5642804?hl=vi
+                    -VN ">Chỉ đường</a></li>
+                    <li>
+                        Email: <a href="mailto:petshop.cuahangthucung@gmail.com ">petshop.cuahangthucung@gmail.com</a>
+                    </li>
+                    <li>
+                        Holine: <span class="mauholine ">0888425094</span>
+                    </li>
+                    <li>
+                        Website: <a href="http://127.0.0.1:5500/index.html ">http://petshop.vn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

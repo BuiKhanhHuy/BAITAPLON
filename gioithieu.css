@@ -1,0 +1,202 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col30 {
+    width: 30%;
+}
+
+.col10 {
+    width: 10%;
+}
+
+.col20 {
+    width: 20%;
+}
+
+.col40 {
+    width: 40%;
+}
+
+h4,
+h6,
+h1 {
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+a {
+    transition-duration: 0.3s;
+}
+
+
+/*CSS NAV*/
+
+nav {
+    width: 100%;
+    background-color: #ffa500;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu>li {
+    width: 12.5%;
+}
+
+.menu>li a {
+    display: block;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding: 3px;
+    border-bottom: 3px solid #ffa500;
+}
+
+.menu>li a:hover {
+    background-color: #ffffff;
+    border-bottom: 3px solid #000000;
+}
+
+.menu span {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* SECTION */
+
+.main {
+    width: 80%;
+    margin: 10px auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.main h1 {
+    border-bottom: 1px solid #ffa500;
+    padding: 10px;
+    text-align: center;
+}
+
+.main a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+.main p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list h3 {
+    padding-left: 10px;
+    color: #ffa500;
+}
+
+ul.list-child {
+    list-style-type: disc;
+}
+
+ul.list-child,
+ol.list-child {
+    padding-left: 50px;
+}
+
+h3.thank {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* CSS BACK TO TOP */
+
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 2px solid #ffa500;
+}
+
+.footer h6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+.footer-logo>img {
+    width: 100%;
+}
+
+.contact>i {
+    display: block;
+}
+
+.freeship,
+.contact {
+    display: flex;
+    padding-top: 30px;
+}
+
+.freeship>div+div {
+    padding-left: 10px;
+}
+
+.footer-info>ul>li:last-child,
+.footer-info>ul>li:nth-child(4) {
+    list-style-type: none;
+}
+
+.mauholine {
+    color: #ff0000;
+}
+
+
+/* add class */
+
+.permanent {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
