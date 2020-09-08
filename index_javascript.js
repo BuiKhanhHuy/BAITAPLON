@@ -9,8 +9,7 @@ $(document).ready(function() {
         }
     });
     $('#backtops').click(function() {
-        $("html, body").animate({ scrollTop: 0 }, 600); //Animation giúp hoạt ảnh scroll ngược lên đầu trang sẽ mượt hơn
-        return false;
+        $('html, body').animate({ scrollTop: 0 }, 800); //Animation giúp hoạt ảnh scroll ngược lên đầu trang sẽ mượt hơn
     });
 });
 
@@ -31,3 +30,26 @@ $(document).ready(function() {
         }
     })
 })
+
+/*bang thong tin lien he*/
+$(document).ready(function() {
+        $('.bubbles-zalo').hover(function() {
+            $('.bubbles-zalo').css({ "right": "0px", "background-color": "#00e600" })
+        }, function() {
+            $('.bubbles-zalo').css({ "right": "-128px", "background-color": "#ffa500" })
+        }, $('.bubbles-mesenge').hover(function() {
+            $('.bubbles-mesenge').css({ "right": "0px", "background-color": "#00e600" })
+        }, function() {
+            $('.bubbles-mesenge').css({ "right": "-128px", "background-color": "#ffa500" })
+        }, $('.bubbles-mail').hover(function() {
+            $('.bubbles-mail').css({ "right": "0px", "background-color": "#00e600" })
+        }, function() {
+            $('.bubbles-mail').css({ "right": "-128px", "background-color": "#ffa500" })
+        }, $('.bubbles-phone').hover(function() {
+            $('.bubbles-phone').css({ "right": "0px", "background-color": "#00e600" })
+        }, function() {
+            $('.bubbles-phone').css({ "right": "-128px", "background-color": "#ffa500" })
+        }))))
+
+    })
+    // neu hover zalo thi thay doi css nguoc lai la ban dau, nguoc lại nua là tới mesenge cũng tương tự lặp lại

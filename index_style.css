@@ -96,7 +96,7 @@ input[type="image"] {
 }
 
 .col10>a:hover {
-    color: #1000ff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -183,6 +183,10 @@ nav {
     padding: 5px;
 }
 
+.pr>img {
+    width: 100%;
+}
+
 .pr img {
     transition: transform 0.3s;
 }
@@ -214,7 +218,7 @@ nav {
 
 .info-dog>a {
     display: block;
-    width: 120px;
+    width: 45%;
     padding: 5px;
     background-color: #ffffff;
     border: 1px solid #ff0000;
@@ -247,6 +251,7 @@ nav {
 
 .news {
     width: 100%;
+    display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     /*  tính luôn tất cả */
@@ -254,7 +259,8 @@ nav {
 
 .news>.one-news {
     display: flex;
-    padding: 30px;
+    padding: 10px;
+    width: 50%;
 }
 
 .one-news img {
@@ -263,14 +269,15 @@ nav {
 
 .one-news>div {
     padding: 10px;
-    width: 30%;
+    width: 40%;
 }
 
 .info {
-    width: 70% !important;
+    width: 60% !important;
 }
 
 .info a {
+    display: block;
     color: #ffa500;
     font-weight: bold;
 }
@@ -287,6 +294,49 @@ nav {
     position: fixed;
     right: 30px;
     bottom: 30px;
+}
+
+
+/*CSS CONTACT*/
+
+.contact-bubbles>div {
+    padding: 3px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #ffa500;
+    /* do trong suot cua nen */
+    width: 180px;
+    position: fixed;
+    right: -128px;
+}
+
+.contact-bubbles img {
+    vertical-align: middle;
+}
+
+.contact-bubbles a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-bubbles a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bubbles-zalo {
+    top: 180px;
+}
+
+.bubbles-mesenge {
+    top: 240px;
+}
+
+.bubbles-mail {
+    top: 300px;
+}
+
+.bubbles-phone {
+    top: 360px;
 }
 
 
@@ -345,6 +395,10 @@ footer a:hover {
 
 .mauholine {
     color: #ff0000;
+}
+
+.footer-info img {
+    width: 40%;
 }
 
 

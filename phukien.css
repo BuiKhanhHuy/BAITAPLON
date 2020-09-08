@@ -211,6 +211,49 @@ nav {
 }
 
 
+/*CSS CONTACT*/
+
+.contact-bubbles>div {
+    padding: 3px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #ffa500;
+    /* do trong suot cua nen */
+    width: 178px;
+    position: fixed;
+    right: -128px;
+}
+
+.contact-bubbles img {
+    vertical-align: middle;
+}
+
+.contact-bubbles a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-bubbles a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bubbles-zalo {
+    top: 180px;
+}
+
+.bubbles-mesenge {
+    top: 240px;
+}
+
+.bubbles-mail {
+    top: 300px;
+}
+
+.bubbles-phone {
+    top: 360px;
+}
+
+
 /* FOOTER */
 
 footer {
@@ -268,6 +311,10 @@ footer a:hover {
 
 .mauholine {
     color: #ff0000;
+}
+
+.footer-info img {
+    width: 40%;
 }
 
 
