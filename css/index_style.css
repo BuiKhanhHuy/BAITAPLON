@@ -410,6 +410,9 @@ footer a:hover {
 /* Responsive */
 
 @media screen and (max-width: 420px) {
+    * {
+        font-size: 3vw;
+    }
     .tieude,
     .menu,
     .main,
@@ -421,8 +424,5 @@ footer a:hover {
     }
     .info-dog {
         width: 50%;
-    }
-    .footer {
-        display: initial;
     }
 }
