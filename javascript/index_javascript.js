@@ -33,28 +33,14 @@ $(document).ready(function() {
     })
 })
 
-/*bang thong tin lien he*/
-$(document).ready(function() {
-        $('.bubbles-zalo').hover(function() {
-            $('.bubbles-zalo').css({ "right": "0px", "background-color": "#00e600" })
-        }, function() {
-            $('.bubbles-zalo').css({ "right": "-128px", "background-color": "#ffa500" })
-        });
-        $('.bubbles-mesenge').hover(function() {
-            $('.bubbles-mesenge').css({ "right": "0px", "background-color": "#00e600" })
-        }, function() {
-            $('.bubbles-mesenge').css({ "right": "-128px", "background-color": "#ffa500" })
-        });
-        $('.bubbles-mail').hover(function() {
-            $('.bubbles-mail').css({ "right": "0px", "background-color": "#00e600" })
-        }, function() {
-            $('.bubbles-mail').css({ "right": "-128px", "background-color": "#ffa500" })
-        });
-        $('.bubbles-phone').hover(function() {
-            $('.bubbles-phone').css({ "right": "0px", "background-color": "#00e600" })
-        }, function() {
-            $('.bubbles-phone').css({ "right": "-128px", "background-color": "#ffa500" })
-        });
+/* tao hiệu ứng bong bóng thông tin */
 
-    })
-    // neu hover zalo thi thay doi css nguoc lai la ban dau, nguoc lại nua là tới mesenge cũng tương tự lặp lại
+$(window).ready(function() {
+    function bongbong() {
+        var t = $('.bubbles-zalo').css("padding");
+        if (t == '5px') {
+            $('.bubbles-zalo').animate({ "padding": "15px" }, 1000, bongbong());
+        } else
+            $('.bubbles-zalo').animate({ "padding": "5px" }, 1000, bongbong());
+    }
+})

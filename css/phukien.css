@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
 }
 
 body {
@@ -131,7 +131,7 @@ nav {
 .info_product {
     width: 25%;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #d9d9d9;
     padding: 5px;
     border: 5px solid #f2f2f2
 }
@@ -214,51 +214,51 @@ nav {
 
 /*CSS CONTACT*/
 
-.contact-bubbles>div {
-    padding: 3px;
-    border-radius: 50px 0px 0px 50px;
-    background-color: #ffa500;
-    /* do trong suot cua nen */
-    width: 178px;
+.contact-bubbles {
+    position: absolute;
     position: fixed;
-    right: -128px;
+    top: 25%;
+    right: 1%;
 }
 
-.contact-bubbles img {
-    vertical-align: middle;
-}
-
-.contact-bubbles a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.contact-bubbles a:hover {
-    color: #ffffff;
-    text-decoration: none;
+.contact-bubbles>div {
+    margin: 20px auto;
+    padding: 2px 2px 0px 2px;
+    border-radius: 50%;
 }
 
 .bubbles-zalo {
-    top: 180px;
+    animation: bongbong 2.5s infinite;
 }
 
 .bubbles-mesenge {
-    top: 240px;
+    animation: bongbong 3s infinite;
 }
 
 .bubbles-mail {
-    top: 300px;
+    animation: bongbong 3.5s infinite;
 }
 
 .bubbles-phone {
-    top: 360px;
+    animation: bongbong 4s infinite;
+}
+
+@keyframes bongbong {
+    from {
+        transform: scale(0.95);
+    }
+    to {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 2px#ffaf1a, 0 0 0 3px #e69500, 0 0 0 5px #ffa500, 0 0 0 7px #ffb833, 0 0 0 9px#ffd280;
+    }
 }
 
 
 /* FOOTER */
 
 footer {
-    background-color: #000000;
+    background-image: url(/image/icon/background-footer.jpg);
+    background-size: 100%;
     color: #ffffff;
     padding: 10px;
 }
