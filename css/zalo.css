@@ -22,58 +22,53 @@ h1 {
 .in-content {
     width: 40%;
     margin: 0 auto;
-    text-align: center;
-}
-
-.guide {
-    background-color: #f2f2f2;
-}
-
-.in-guide {
-    display: flex;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.in-guide img {
-    width: 100%;
-}
-
-.col50,
-.guide-zalo-web a,
-.in-guide {
-    width: 50%;
 }
 
 .in-content,
-.in-guide,
-div,
-p,
-h2,
-.guide-zalo-web a,
-.header {
-    padding: 10px;
-}
-
-.guide-zalo-web>div {
-    display: flex;
-}
-
-.guide-zalo-web a {
-    display: block;
-    border: 1px solid #009FCB;
-    color: #009FCB;
-    text-decoration: none;
-    border-radius: 50px;
-    margin: 5px;
-}
-
-.guide-zalo-web a:hover {
-    color: #ffffff;
-    background-color: #009FCB;
-    ;
+.click>a,
+.huongdan {
+    text-align: center;
 }
 
 .col50 {
-    margin: 0 20px 0 20px;
+    width: 50%;
+    margin: 20px;
+}
+
+.col50 img {
+    width: 100%;
+}
+
+.background {
+    background-color: #f2f2f2;
+}
+
+.guide {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cach {
+    text-align: center;
+    padding: 10px;
+}
+
+.click>a {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #009FCB;
+    color: #009FCB;
+}
+
+.click>a:hover {
+    background-color: #009FCB;
+    color: #ffffff;
 }

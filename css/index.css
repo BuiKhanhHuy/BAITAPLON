@@ -1,0 +1,244 @@
+@import "style.css";
+h4,
+h6 {
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.section-content,
+.section-content+div {
+    margin-top: 5px;
+}
+
+a {
+    transition-duration: 0.3s;
+}
+
+
+/*CSS HEADER*/
+
+header {
+    background-image: url(/image/icon/background-header.jpg);
+}
+
+.tieude {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.col30 img {
+    width: 100%;
+}
+
+.tieude>.col40 {
+    padding-top: 3%;
+}
+
+.tieude>.col10 {
+    padding-top: 2%;
+}
+
+.tieude>.col40>.search {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.search input {
+    height: 60%;
+    display: block;
+    padding: 10px;
+    border: 2px solid #ffa500
+}
+
+input[type="search"] {
+    width: 90%;
+    border-radius: 5px 0 0 5px;
+}
+
+input[type="image"] {
+    background-color: #ffa500;
+    border-radius: 0 5px 5px 0;
+}
+
+.header-icon {
+    text-align: center;
+}
+
+.header-icon a {
+    color: #ffa500;
+}
+
+.col10>a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* SECTION MAIN */
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+
+.main>section {
+    border-bottom: 5px solid #ffffff;
+}
+
+
+/*SECTION CONTENT*/
+
+.bootstrap-carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 450px;
+}
+
+
+/* .carousel-inner img, */
+
+.info-dog img {
+    width: 100%;
+    height: 75%;
+    border-radius: 5px;
+    transition: transform 1s;
+}
+
+.info-dog img:hover {
+    transform: scale(1.025);
+}
+
+.list-dog,
+.info-dog {
+    flex-wrap: wrap;
+}
+
+.list-dog,
+.info-dog>div,
+.news,
+.news>.one-news {
+    display: flex;
+}
+
+.info-dog {
+    width: 33.333333333333333333333%;
+    border: 5px solid #f2f2f2;
+    border-radius: 1.5vw;
+    background-color: #ffffff;
+    transition: background-color 0.5s;
+    transition: width 1s;
+}
+
+.info-dog,
+.info-dog>div div {
+    padding: 10px;
+}
+
+.info-dog .col60 {
+    text-align: right;
+}
+
+.info-dog:hover {
+    background-color: #ffc14d;
+}
+
+.info-dog .col40 a {
+    display: block;
+    width: 100%;
+    padding: 0.5vw;
+    background-color: #ffffff;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #ff0000;
+    text-align: center;
+}
+
+.info-dog .col40 a:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main div>h4 {
+    color: #ffffff;
+    background-color: #ff0000;
+    margin-bottom: 0px;
+    width: 20%;
+    border-radius: 0 20px 0 0;
+}
+
+.main>div {
+    border-bottom: 1px solid #ffa500;
+}
+
+
+/* ARTICLE */
+
+.news {
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* độ đen trăng */
+    /*  tính luôn tất cả */
+}
+
+.news>.one-news {
+    filter: grayscale(98%);
+}
+
+.news>.one-news:hover {
+    filter: grayscale(0%)
+}
+
+.news>.one-news {
+    padding: 10px;
+    width: 50%;
+}
+
+.one-news img {
+    width: 100%;
+}
+
+.one-news>div {
+    padding: 10px;
+    width: 40%;
+}
+
+.info {
+    width: 60% !important;
+}
+
+.info a {
+    display: block;
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.info a:hover {
+    color: #3399ff;
+    text-decoration: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 3vw;
+    }
+    .tieude,
+    .menu,
+    .main,
+    .section-content .bootstrap-carousel {
+        width: 100%;
+    }
+    .info-dog {
+        width: 100%;
+    }
+}
