@@ -209,7 +209,7 @@ a,
     padding: 10px;
     background-color: rgba(255, 165, 0, 0.6);
     position: fixed;
-    left: -31.5vw;
+    left: -34vw;
     top: 12vw;
     z-index: 5;
     border-radius: 10px;
@@ -227,7 +227,7 @@ a,
 .knotx {
     position: absolute;
     top: 0vw;
-    right: -5vw;
+    right: -8vw;
     border-radius: 50px;
     padding: 3px;
 }
@@ -328,15 +328,4 @@ footer a:hover {
     position: fixed;
     top: 0px;
     z-index: 1;
-}
-
-@media screen and (max-width: 420px) {
-    * {
-        font-size: 5vw;
-    }
-    #nav_menu,
-    .info,
-    .section-content {
-        width: 100%;
-    }
 }

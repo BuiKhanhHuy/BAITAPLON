@@ -239,8 +239,12 @@ input[type="image"] {
         width: 100%;
     }
     .info-dog,
-    .carousel-item img {
+    .carousel-item img,
+    .form-support {
         width: 100%;
+    }
+    .form-support {
+        left: -9vw;
     }
     .col10 img {
         width: 70%;

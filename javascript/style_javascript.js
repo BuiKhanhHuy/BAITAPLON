@@ -54,7 +54,7 @@ $(document).ready(function() {
         $('.knotk').css({ "z-index": "1" });
     })
     $('#button-image-x').click(function() {
-        $('.form-support').animate({ "left": "-31.5vw" }, 1000)
+        $('.form-support').animate({ "left": "-34vw" }, 1000)
         $('.knoto').css({ "z-index": "1" });
         $('.knotk').css({ "z-index": "-1" });
     })
