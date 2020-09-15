@@ -107,14 +107,12 @@
         
         @media screen and (max-width: 420px) {
             * {
-                font-size: 5vw;
-            }
-            .tieude {
-                font-size: 2vw;
+                font-size: 5px;
             }
             #nav_menu,
             .info,
-            .section-content {
+            .section-content,
+            .footer {
                 width: 100%;
             }
         }

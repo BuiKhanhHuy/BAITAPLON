@@ -44,7 +44,7 @@ h3.thank {
 
 @media screen and (max-width: 420px) {
     * {
-        font-size: 5vw;
+        font-size: 4px;
     }
     .tieude {
         font-size: 2vw;
