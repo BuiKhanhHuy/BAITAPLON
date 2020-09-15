@@ -31,3 +31,14 @@
 .image-dog img {
     width: 100%;
 }
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 5vw;
+    }
+    #nav_menu,
+    .info,
+    .section-content {
+        width: 100%;
+    }
+}

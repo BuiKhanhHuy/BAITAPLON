@@ -117,3 +117,18 @@
     color: #ffffff;
     background-color: #007bff;
 }
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 5vw;
+    }
+    #nav_menu,
+    .info,
+    .section-content,
+    .info_product {
+        width: 100%;
+    }
+    .menu_main {
+        width: 50%;
+    }
+}

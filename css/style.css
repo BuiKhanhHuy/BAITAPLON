@@ -249,6 +249,10 @@ input[type="text"] {
     margin: 0.5vw;
 }
 
+.question textarea {
+    width: 100%;
+}
+
 .question {
     margin: 0.5vw;
 }
@@ -265,7 +269,7 @@ footer {
 }
 
 .footer {
-    display: flex;
+    /* display: flex; */
     width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -324,4 +328,15 @@ footer a:hover {
     position: fixed;
     top: 0px;
     z-index: 1;
+}
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 5vw;
+    }
+    #nav_menu,
+    .info,
+    .section-content {
+        width: 100%;
+    }
 }

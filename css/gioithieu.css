@@ -41,3 +41,14 @@ h3.thank {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 5vw;
+    }
+    #nav_menu,
+    .info,
+    .section-content {
+        width: 100%;
+    }
+}

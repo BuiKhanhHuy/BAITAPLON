@@ -230,7 +230,7 @@ input[type="image"] {
 
 @media screen and (max-width: 420px) {
     * {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .tieude,
     .menu,
@@ -238,7 +238,17 @@ input[type="image"] {
     .section-content .bootstrap-carousel {
         width: 100%;
     }
-    .info-dog {
+    .info-dog,
+    .carousel-item img {
+        width: 100%;
+    }
+    .col10 img {
+        width: 70%;
+    }
+    .col40 a {
+        padding: 1vw;
+    }
+    html {
         width: 100%;
     }
 }

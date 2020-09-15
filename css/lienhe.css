@@ -35,3 +35,14 @@ h1 {
     text-decoration: none;
     color: #ffa500;
 }
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 5vw;
+    }
+    #nav_menu,
+    .info,
+    .section-content {
+        width: 100%;
+    }
+}
