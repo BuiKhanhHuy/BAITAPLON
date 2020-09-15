@@ -224,37 +224,3 @@ input[type="image"] {
     color: #3399ff;
     text-decoration: none;
 }
-
-
-/* Responsive */
-
-@media screen and (max-width: 420px) {
-    * {
-        font-size: 5vw;
-    }
-    .tieude {
-        font-size: 2vw;
-    }
-    .tieude,
-    .menu,
-    .main,
-    .section-content .bootstrap-carousel,
-    .info-dog,
-    .carousel-item img,
-    .form-support,
-    main h4 {
-        width: 100%;
-    }
-    .form-support {
-        left: -9vw;
-    }
-    .col10 img {
-        width: 70%;
-    }
-    .col40 a {
-        padding: 1vw;
-    }
-    html {
-        width: 100%;
-    }
-}

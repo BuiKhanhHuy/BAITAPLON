@@ -104,15 +104,3 @@
             color: #ffffff;
             background-color: #007bff;
         }
-        
-        @media screen and (max-width: 420px) {
-            * {
-                font-size: 5px;
-            }
-            #nav_menu,
-            .info,
-            .section-content,
-            .footer {
-                width: 100%;
-            }
-        }
