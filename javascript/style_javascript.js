@@ -34,28 +34,12 @@ $(document).ready(function() {
 })
 
 
-/* tao hiệu ứng bong bóng thông tin */
-
 $(window).ready(function() {
-    function bongbong() {
-        var t = $('.bubbles-zalo').css("padding");
-        if (t == '5px') {
-            $('.bubbles-zalo').animate({ "padding": "15px" }, 1000, bongbong());
-        } else
-            $('.bubbles-zalo').animate({ "padding": "5px" }, 1000, bongbong());
-    }
-})
-
-/* form hỗ trợ khách hàng */
-$(document).ready(function() {
-    $('#button-image-o').click(function() {
-        $('.form-support').animate({ "left": "0vw" }, 1000)
-        $('.knoto').css({ "z-index": "-1" });
-        $('.knotk').css({ "z-index": "1" });
+    $('.form-support').hide();
+    $('#hotro').click(function() {
+        $('.form-support').slideDown(500);
     })
-    $('#button-image-x').click(function() {
-        $('.form-support').animate({ "left": "-34vw" }, 1000)
-        $('.knoto').css({ "z-index": "1" });
-        $('.knotk').css({ "z-index": "-1" });
+    $('#knot').click(function() {
+        $('.form-support').hide();
     })
 })
