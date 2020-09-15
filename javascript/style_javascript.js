@@ -9,7 +9,7 @@ $(document).ready(function() {
         }
     });
     $('#backtop').click(function() {
-        $('html, body').animate({ scrollTop: 0 }, 800); //Animation giúp hoạt ảnh scroll ngược lên đầu trang sẽ mượt hơn
+        $('html, body').animate({ scrollTop: 0 }, 900); //Animation giúp hoạt ảnh scroll ngược lên đầu trang sẽ mượt hơn
     });
 });
 

@@ -41,6 +41,9 @@ ul.info-service>li {
     * {
         font-size: 5vw;
     }
+    .tieude {
+        font-size: 2vw;
+    }
     #nav_menu,
     .info,
     .section-content {

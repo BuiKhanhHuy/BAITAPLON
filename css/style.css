@@ -258,7 +258,7 @@ footer {
 }
 
 .footer {
-    /* display: flex; */
+    display: flex;
     width: 80%;
     margin: 0 auto;
     padding: 10px;

@@ -232,15 +232,17 @@ input[type="image"] {
     * {
         font-size: 5vw;
     }
+    .tieude {
+        font-size: 2vw;
+    }
     .tieude,
     .menu,
     .main,
-    .section-content .bootstrap-carousel {
-        width: 100%;
-    }
+    .section-content .bootstrap-carousel,
     .info-dog,
     .carousel-item img,
-    .form-support {
+    .form-support,
+    main h4 {
         width: 100%;
     }
     .form-support {
